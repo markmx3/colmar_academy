@@ -204,10 +204,10 @@ aside img {
 }
 
 .video-container {
-    height: auto;
-    width: 60%;
-    margin: 32px 24px;
-  }
+  height: auto;
+  width: 60%;
+  margin: 32px 24px;
+}
 
 video {
   width: 100%;
@@ -221,4 +221,23 @@ video {
 
 .thesis.sidebar {
   margin-top: 32px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  border: 1px solid grey;
+  padding: 16px 24px;
+}
+
+footer nav ul li a, span {
+  font-size: 1.2rem;
+}
+
+footer nav ul {
+  display: inline-flex;
+  justify-content: flex-end;
 }
