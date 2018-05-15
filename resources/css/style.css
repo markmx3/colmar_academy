@@ -46,7 +46,7 @@ a {
   height: auto;
 }
 
-.aside-text, h2, h5 {
+.text-box, h2, h5 {
   margin-bottom: 8px;
 }
 
@@ -56,6 +56,10 @@ h5 a {
 
 p {
   font-size: 1.2rem;
+}
+
+.text-box {
+  margin: 16px;
 }
 
 /* Header */
@@ -151,6 +155,34 @@ aside img {
   margin: 16px;
 }
 
-.aside-text {
-  margin-right: 16px;
+/* Courses */
+
+.courses.container h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.courses.container {
+  display: block;
+}
+
+.course-boxes {
+  display: flex;
+  margin: 32px 72px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-box {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+  border: 1px solid grey;
+  width: 25%;
+}
+
+.course-box img {
+  height: auto;
 }
