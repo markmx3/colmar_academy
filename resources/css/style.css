@@ -29,6 +29,17 @@ a {
    color: black;
 }
 
+.large-photo {
+  height: auto;
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.large-photo img {
+  width: 100%;
+  height: auto;
+}
+
 /* Header */
 
 header {
@@ -69,4 +80,23 @@ nav ul {
 ul li a {
   margin-left: 16px;
   font-size: 1.5rem;
+}
+
+/* Banner Section*/
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 500px;
+}
+
+.banner-text a {
+  width: 100%;
+  padding: 8px;
+  background-color: dimgray;
+  text-align: center;
+  font-size: 2.0rem;
+  color: white;
 }
